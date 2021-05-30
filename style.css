@@ -1,0 +1,271 @@
+*{
+    box-sizing:border-box ;
+    padding: 0px;
+    margin: 0px;
+    font: 25px Arial, Helvetica, sans-serif
+    
+}
+
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.border_bottom{
+    border-bottom: 1px #000 solid;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+li:hover{
+    /* background-color: #242424; */
+}
+
+a{
+    text-decoration: none;
+    color: #3a09aa;
+}
+
+.button{
+    background-color: #3a09aa;
+    font: 1em Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0px;
+    font-weight: bold
+    /* background-color:rgba(51, 204, 0, 0.705); */
+   
+}
+
+.padd_marg{
+    padding: 10px;
+    margin: auto;
+}
+
+#myTableConsulter{
+    border-collapse: collapse;
+    border: 1px solid rgb(51, 65, 65);
+    width: 100%;
+    background-color: #f8f1f1;
+}
+
+#myTableConsulter th   ,#myTableConsulter td{
+    padding: 10px;
+    /* background-color: #f0f0f0; */
+}
+
+#myTableConsulter th   ,#myTableConsulter td:hover{
+    /* background-color: rgb(5, 160, 160); */
+    background-color: #8661dbb0;
+}
+
+.bg_image{
+    background-image: url(../asset/imagesm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-image: 2px round;
+    height: 100%;
+}
+
+.width_100{
+    width: 100%;
+}
+
+.align_item{
+    align-items: center ;
+}
+
+.text_align_center{
+    text-align: center;
+}
+
+.position_absolute{
+    position: absolute;
+}
+
+.position_relative{
+    position: initial;
+}
+
+.justify_around{
+    justify-content: space-around;
+}
+
+.justify_between{
+    justify-content: space-between;
+}
+
+.justify_center{
+    justify-content: center
+}
+
+.alignLeft{
+    text-align: left;
+}
+
+
+
+
+/* vue mobile */
+.col-1 {
+    max-width: 8.33%;
+    flex: 8.33%;
+}
+.col-2 {
+    max-width: 16.66%;
+    flex:  16.66%;
+}
+.col-3 {
+    max-width: 25%;
+    flex: 25%;
+}
+.col-4 {
+    max-width: 33.33%;
+    flex: 33.33%;
+}
+.col-5 {max-width: 41.66%;
+    flex:41.66%;
+}
+.col-6 {
+    max-width: 50%;
+    flex: 50%;
+}
+.col-7 {
+    max-width: 58.33%;
+    flex: 58.33%;
+}
+.col-8 {
+    max-width: 66.66%;
+    flex:66.66%;
+}
+.col-9 {
+    max-width: 75%;
+    flex:75%;
+}
+.col-10 {
+    max-width: 83.33%;
+    flex:83.33%;
+}
+.col-11 {
+    max-width: 91.66%;
+    flex:91.66%;
+}
+.col-12 {
+    max-width: 100%;
+    flex:100%;
+}
+
+/* vue tablet */
+@media only screen and (min-width:700px){
+
+    .col-1-sm {
+        max-width: 8.33%;
+        flex: 8.33%;
+    }
+    .col-2-sm {
+        max-width: 16.66%;
+        flex:  16.66%;
+    }
+    .col-3-sm {
+        max-width: 25%;
+        flex: 25%;
+    }
+    .col-4-sm {
+        max-width: 33.33%;
+        flex: 33.33%;
+    }
+    .col-5-sm {max-width: 41.66%;
+        flex:41.66%;
+    }
+    .col-6-sm {
+        max-width: 50%;
+        flex: 50%;
+    }
+    .col-7-sm {
+        max-width: 58.33%;
+        flex: 58.33%;
+    }
+    .col-8-sm {
+        max-width: 66.66%;
+        flex:66.66%;
+    }
+    .col-9-sm {
+        max-width: 75%;
+        flex:75%;
+    }
+    .col-10-sm {
+        max-width: 83.33%;
+        flex:83.33%;
+    }
+    .col-11-sm {
+        max-width: 91.66%;
+        flex:91.66%;
+    }
+    .col-12-sm {
+        max-width: 100%;
+        flex:100%;
+    }
+}
+
+/* vue desktop */
+@media only screen and (min-width:1024px){
+
+    .col-1-xl {
+        max-width: 8.33%;
+        flex: 8.33%;
+    }
+    .col-2-xl {
+        max-width: 16.66%;
+        flex:  16.66%;
+    }
+    .col-3-xl {
+        max-width: 25%;
+        flex: 25%;
+    }
+    .col-4-xl {
+        max-width: 33.33%;
+        flex: 33.33%;
+    }
+    .col-5-xl {max-width: 41.66%;
+        flex:41.66%;
+    }
+    .col-6-xl {
+        max-width: 50%;
+        flex: 50%;
+    }
+    .col-7-xl {
+        max-width: 58.33%;
+        flex: 58.33%;
+    }
+    .col-8-xl {
+        max-width: 66.66%;
+        flex:66.66%;
+    }
+    .col-9-xl {
+        max-width: 75%;
+        flex:75%;
+    }
+    .col-10-xl {
+        max-width: 83.33%;
+        flex:83.33%;
+    }
+    .col-11-xl {
+        max-width: 91.66%;
+        flex:91.66%;
+    }
+    .col-12-xl {
+        max-width: 100%;
+        flex:100%;
+    }
+}
